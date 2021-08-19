@@ -1,0 +1,29 @@
+{
+  "name": "@phistrom/cf-logdna",
+  "version": "0.0.1",
+  "description": "An unofficial LogDNA logger for Cloudflare Workers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phistrom/cf-logdna"
+  },
+  "keywords": [
+    "logging",
+    "logdna",
+    "cloudflare"
+  ],
+  "author": "Phillip Stromberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phistrom/cf-logdna/issues"
+  },
+  "homepage": "https://github.com/phistrom/cf-logdna#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2"
+  }
+}
